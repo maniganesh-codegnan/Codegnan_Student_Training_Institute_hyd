@@ -1,0 +1,122 @@
+/* General page layout */
+.session-page {
+  font-family: "Arial", sans-serif;
+  text-align: left;
+  padding: 20px;
+  background-color: white;
+}
+
+/* Header styling */
+.header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* .blue-text {
+    color: #0033cc;
+  } */
+
+.code-text {
+  color: #0000ff;
+}
+
+.red-text {
+  color: #ff0000;
+}
+
+/* Features list styling */
+.features-section {
+  margin-bottom: 2rem;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.features-list li {
+  margin: 0.5rem 0;
+}
+
+/* Statistics section styling */
+.statistics {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+p {
+  font-size: 1.4rem;
+}
+
+.stat {
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat h3 {
+  font-size: 1.8rem;
+  color: #ff0000;
+}
+
+.stat h5 {
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+}
+
+/* Footer styling */
+.footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #001f3f;
+  color: white;
+  border-radius: 8px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.bgImage {
+  background-image: url(".././photos/blueBackground.png");
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  cursor: pointer;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9); */
+}
+.btnPlacement {
+  background-color: rgb(5, 5, 173);
+  color: rgb(235, 6, 6);
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  padding: 10px;
+  font-style: bold;
+  position: relative;
+  right: -20%;
+  bottom: 15%;
+  border: 0.5rem solid rgb(174, 211, 7);
+  padding: 1.3rem;
+  cursor: pointer;
+}
+
+.studentImg {
+  box-shadow: #001f3f;
+}
+
+.dash {
+  font-size: 4rem;
+  /* height: 10rem; */
+  padding: 1.1rem;
+}
