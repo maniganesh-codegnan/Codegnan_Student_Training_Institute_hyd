@@ -1,4 +1,21 @@
 .App {
+  width: 1440px;
+  height: 1024px;
+  border: 2px solid black;
   font-family: sans-serif;
   text-align: center;
+}
+
+/* Media query for tablet devices */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 576px) {
+  .App {
+    padding: 5px;
+  }
 }
