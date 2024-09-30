@@ -3,7 +3,7 @@
   width: 100%;
   height: 100vh;
   padding: 1rem;
-  border:0.1px solid rgba(239, 238, 238, 0.858);
+  /* border:0.1px solid rgba(239, 238, 238, 0.858); */
  
 }
 
@@ -68,6 +68,14 @@
   font-size: 20px;
   /* font-weight:semi bold; */
   /* font-family: montserrat; */
+  font-family: 'Inter';
+  /* 'Lato', 'Montserrat', sans-serif;   */
+    font-weight: 600;
+    /* Light: 200
+       - Regular: 400
+       - Semi-bold: 600
+       - Extra Bold: 800
+    */
 }
 
 .features-list img {
@@ -83,7 +91,7 @@
   align-items: center;
   height: 90vh;
   position: absolute;
-  top:5rem;
+  top:6rem;
   /* left:0; */
 }
 .dotImg img {
@@ -98,44 +106,48 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 85vh;
   position: absolute;
+  left: 20rem;
+  top:17rem;
 }
 .center-container img {
-  width: 12rem;
-  height: 12rem;
-  position: absolute;
-  left: 24rem;
+  width: 160px;
+  height: 160px;
+  position: relative;
+  
 }
 .bottom-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200vh;
+  height: 170vh;
   position: absolute;
+  left: 45rem;
 }
 
 .bottom-container img {
-  width: 8rem;
-  height: 8rem;
-  position: absolute;
-  left: 35rem;
-  top:50rem;
+  width: 140px;
+  height: 120px;
+  position: relative;
+  
 }
 
 /* Statistics */
 .statistics {
   display: flex;
   justify-content: space-around;
-  margin-top: 1rem;
+  margin-top: 0;
+  position:relative;
+  left:2rem;
 }
 
 .studentImg{
   width:155px;
   height: 232px;
   position: relative;
-  left:-2.8rem;
-  top:1rem;
+  left:-3.8rem;
+  top:0;
 }
 
 .studentResults {
@@ -152,14 +164,26 @@
   font-size: 32px;
   font-weight: bold;
   /* Montserrat */
+  font-family: 'Montserrat';
+  /* 'Lato', 'Montserrat', sans-serif;   */
+    font-weight: 700;
 }
 
 .studentResults div p{
 width: 133px;
 height:39px;
-font-weight: bold;
-font-size: 18px;
+/* font-weight: bold; */
+font-size: 20px;
 /* Montserrat */
+font-family: 'Montserrat';
+  /* 'Lato', 'Montserrat', sans-serif;   */
+    font-weight: 600;
+    /* Light: 200
+       - Regular: 400
+       - Semi-bold: 600
+       - Extra Bold: 800
+    */
+
 }
 
 .dash {
@@ -190,7 +214,11 @@ font-size: 18px;
   position: relative;
 }
 
-.centerStudent img,
+.centerStudent img{
+  width:188px;
+  height:193px;
+}
+
 .student1 img,
 .student2 img,
 .student3 img,
@@ -245,7 +273,7 @@ font-size: 18px;
 .centerStudent {
   position: absolute;
   top: 33%;
-  right: 32%;
+  right: 30%;
 }
 .centerStudent img {
   width: 188px;
@@ -261,7 +289,7 @@ font-size: 18px;
   /* inter, semibold */
   position: absolute;
   top: 54%;
-  right: 40%;
+  right: 38%;
 }
 .studentCompany{
   width: 83px;
@@ -286,17 +314,17 @@ font-size: 18px;
 .student1 {
   position: absolute;
   top: 37%;
-  left: 13%;
+  left: 18%;
 }
 .student2 {
   position: absolute;
   top: 15%;
-  left: 21%;
+  left: 26%;
 }
 .student3 {
   position: absolute;
-  top: 2%;
-  left: 42%;
+  top: 3%;
+  left: 45%;
 }
 .student4 {
   position: absolute;
@@ -311,18 +339,18 @@ font-size: 18px;
 .student6 {
   position: absolute;
   top: 53%;
-  left: 82%;
+  left: 81%;
 }
 
 .student7 {
   position: absolute;
   top: 66%;
-  left: 57%;
+  left: 56%;
 }
 .student8 {
   position: absolute;
-  top: 60%;
-  left: 25%;
+  top: 58%;
+  left: 30%;
 }
 .allPlaced{
   color:#FDFA01;
@@ -343,67 +371,179 @@ font-size: 18px;
   /* margin: 5px; */
 }
 
-/* Footer
-.footer {
-  padding: 2rem;
-  color: white;
-  text-align: center;
+/*======== */
+
+/* Base styles */
+.sessionCls {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  /* border: 0.1px solid rgba(239, 238, 238, 0.858); */
 }
 
-.footerPara {
-  margin-top: 1rem;
-  font-size: 1rem;
-} */
+.session-page {
+  width: 100%;
+  padding: 1rem;
+}
 
 /* Responsive Design */
-@media (max-width: 1200px) {
-  .sessionCls {
-    height: auto;
+
+
+@media (min-width: 576px) {
+  .features-list {
+    font-size: 14px;
   }
 
-  .statistics {
-    flex-direction: column;
+  .studentImg {
+    width: 80px;
+    height: 120px;
   }
 
-  .studentResults {
-    flex-direction: column;
-  }
-
-  .footerPara {
-    font-size: 0.9rem;
-  }
-  .footer-background{
-    height:4rem;
+  .centerStudent img {
+    width: 80px;
+    height: 120px;
   }
 }
 
-@media (max-width: 768px) {
-  .header h2 {
-    font-size: 1.5rem;
+
+@media (min-width: 768px) {
+  .features-list {
+    font-size: 16px;
   }
 
-  .features-list li {
-    font-size: 1rem;
+  .studentImg {
+    width: 100px;
+    height: 150px;
   }
 
-  .studentResults div h3 {
-    font-size: 1.2rem;
+  .centerStudent img {
+    width: 100px;
+    height: 150px;
+  }
+}
+
+
+/* @media (min-width: 992px) {
+  .features-list {
+    font-size: 18px;
   }
 
-  .centerStudent img,
-  .student1 img,
-  .student2 img,
-  .student3 img,
-  .student4 img,
-  .student5 img,
-  .student6 img,
-  .student7 img,
-  .student8 img {
-    width: 60px;
+  .studentImg {
+    width: 120px;
+    height: 180px;
+  }
+
+   .centerStudent img {
+    width: 120px;
+    height: 180px;
+  } 
+} */
+
+
+@media (min-width: 1200px) {
+  .features-list {
+    font-size: 20px;
+  }
+
+  .studentImg {
+    width: 140px;
+    height: 210px;
+  }
+
+  .centerStudent img {
+    width: 160px;
+    height: 170px;
+  }
+
+  .bottom-container {    
+    left: 30rem;
+    top:28rem;
+  }
+  
+  
+@media (min-width: 1400px) { 
+  .header h2 img{
+    width: 830px;
     height: 90px;
+    position: relative;
+    left:2rem;
+    top:1rem;
+  }
+  .dotImg{
+    top:5.3rem;
+  } 
+ .dotImg img {
+  width: 5rem;
+  height: 7rem; 
+}
+.features-list li {
+  font-size: 22px;
+}
+.studentImg {
+  width: 160px;
+  height: 240px;
+}
+.center-container{
+ height: 55vh;
+ position: absolute;
+ left: 25rem;
+
+}
+.centerStudent img {
+  width: 225px;
+  height: 205px;
+}
+.footer-background {
+  width: 100%;
+  height: 10rem;
+  position:absolute;
+  top:-10rem;
+}
+
+.dash {
+  font-size: 4rem;  
+  padding: 2.2rem;
+  position: relative;
+  top:-3.4rem;
+  left:1rem
+}
+.bgImage {
+  width: 1019px;
+  /* height: 1089px; */
+  /* border: 2px solid yellow; */
+  /* position: relative; */
+}
+.footerPara{
+  left:8rem;
+  width: 608px;
+  height: 18px;
+  font-size: 1.2rem;
+}
+
+.bottom-container {  
+  left: 45rem;
+  top:9rem;
+}
+}
+
+}
+
+
+
+
+
+
+/* @media (min-width: 1400px) {
+  .features-list {
+    font-size: 22px;
   }
 
-  .footerPara {
-    font-size: 0.8rem;
+  .studentImg {
+    width: 160px;
+    height: 240px;
   }
-}
+
+  .centerStudent img {
+    width: 250px;
+    height: 240px;
+  } */

@@ -36,23 +36,23 @@ const SessionPage = () => {
           <ul className="features-list">
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
-              <span>Online and classroom IT certification courses</span>
+              <span className="info">Online and classroom IT certification courses</span>
             </li>
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
-              <span>Expert trainers from top universities and companies</span>
+              <span className="info">Expert trainers from top universities and companies</span>
             </li>
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
-              <span>Advanced course curriculum</span>
+              <span className="info">Advanced course curriculum</span>
             </li>
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
-              <span>Real-time projects, Interviews</span>
+              <span className="info">Real-time projects, Interviews</span>
             </li>
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
-              <span>Career support with our job acceleration program</span>
+              <span className="info">Career support with our job acceleration program</span>
             </li>
           </ul>
         </section>

@@ -1,6 +1,6 @@
 .headerCls {
-  width:100%;
-  border:0.1px solid rgba(239, 238, 238, 0.858);
+  width: 100%;
+  /* border: 0.1px solid rgba(239, 238, 238, 0.858); */
   position: sticky;
   top: 0;
   background-color: white;
@@ -15,7 +15,6 @@
   align-items: center;
   padding: 0;
   background-color: white;
-  /* box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2); */
 }
 
 /* Logo styling */
@@ -25,8 +24,8 @@
 }
 
 .logo-img {
-  height: 80px;
-  width: auto;
+  height: 97px;
+  width: 194px;
 }
 
 /* Navigation links styling */
@@ -40,12 +39,15 @@
 
 .nav-links li {
   position: relative;
+  font-family: 'Inter';
+  /* 'Lato', 'Montserrat', sans-serif;   */
+    font-weight: 400;
 }
 
 .nav-links a {
   text-decoration: none;
   color: black;
-  font-size: 1.1rem;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -54,12 +56,18 @@
   color: #007bff;
 }
 
-/* Responsive styles for smaller screens */
-@media (max-width: 768px) {
+/* Responsive styles for different breakpoints */
+/* Navbar styling for different screen sizes */
+
+/* Mobile devices (up to 576px) */
+@media (min-width: 576px) {
+  /* .navbar {
+    padding: 10px;
+  } */
+
   .nav-links {
     flex-direction: column;
-    gap: 1rem;
-    text-align: left;
+    gap: 0.5rem;
   }
 
   .logo-img {
@@ -67,13 +75,48 @@
   }
 }
 
-/* Mobile view */
-@media (max-width: 576px) {
+/* Tablet devices (up to 768px) */
+@media (min-width: 768px) {
   .nav-links {
-    gap: 0.5rem;
+    flex-direction: row;
+    gap: 1rem;
   }
 
   .logo-img {
-    height: 40px;
+    height: 60px;
+  }
+}
+
+/* Medium devices (up to 992px) */
+@media (min-width: 992px) {
+  .nav-links {
+    gap: 1.5rem;
+  }
+
+  .logo-img {
+    height: 70px;
+  }
+}
+
+/* Large devices (up to 1200px) */
+@media (min-width: 1200px) {
+  .nav-links {
+    gap: 2rem;
+  }
+
+  .logo-img {
+    height: 80px;
+  }
+}
+
+/* Extra-large devices (1400px and above) */
+@media (min-width: 1400px) {
+  .nav-links {
+    gap: 2.5rem;
+  }
+
+  .logo-img {
+    height: 98px;
+    width: 220px;
   }
 }
