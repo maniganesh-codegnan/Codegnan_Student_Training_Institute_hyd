@@ -1,21 +1,53 @@
 .App {
-  width: 1440px;
-  height: 1024px;
-  border: 2px solid black;
+  width: 100%; /* Make it flexible to fit all devices */
+  height: 100%;
+  /* border: 2px solid black; */
   font-family: sans-serif;
   text-align: center;
+  padding: 0; /* Reset default padding */
 }
 
-/* Media query for tablet devices */
-@media (max-width: 768px) {
-  .App {
-    padding: 10px;
-  }
+*{
+margin: 0;
 }
 
-/* Media query for mobile devices */
-@media (max-width: 576px) {
-  .App {
-    padding: 5px;
+
+
+/* 
+  Mobile devices (up to 576px) 
+  @media (min-width: 576px) {
+    .App {
+      padding: 5px;
+    }
   }
-}
+
+  Tablet devices (up to 768px) 
+  @media (min-width: 768px) {
+    .App {
+      padding: 10px;
+    }
+  }
+
+  Medium-sized devices (up to 992px) 
+  @media (min-width: 992px) {
+    .App {
+      padding: 15px;
+    }
+  }
+
+  Large devices (up to 1200px) 
+  @media (min-width: 1200px) {
+    .App {
+      padding: 20px;
+    }
+  }
+
+  Extra-large devices (1400px and above) 
+  @media (min-width: 1400px) {
+    .App {
+      padding: 25px;
+    }
+  }
+*/
+
+
