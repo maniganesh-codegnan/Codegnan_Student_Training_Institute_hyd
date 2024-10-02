@@ -1,6 +1,6 @@
 import React from "react";
 import "./SessionPage.css";
-import backgroundRight from "../photos/BlueScreenRight.png";
+import backgroundRight from "../photos/bg_blue_Right.png";
 import studentLogo from "../photos/person.png";
 import cicleIsolation from "../photos/CircleIsolation.png";
 import dotSquare from "../photos/dotSquare.png";
@@ -15,8 +15,9 @@ import studentFive from "../photos/studentFive.png";
 import studentSix from "../photos/studentSix.png";
 import studentSeven from "../photos/studentSeven.png";
 import studentEight from "../photos/studentEight.png";
-import institute from "../photos/trainingInstitute.png";
-import startCodeGetJob from "../photos/startCodeGetJob.png";
+import institute from "../photos/India_Training_Institute.png";
+import startCodeGetJob from "../photos/Start_Code_Get_Job.png";
+// import StudentData from "./StudentData";
 
 
 const SessionPage = () => {
@@ -36,22 +37,27 @@ const SessionPage = () => {
           <ul className="features-list">
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
+              &nbsp;&nbsp;&nbsp;&nbsp;
               <span className="info">Online and classroom IT certification courses</span>
             </li>
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
+              &nbsp;&nbsp;&nbsp;&nbsp;
               <span className="info">Expert trainers from top universities and companies</span>
             </li>
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
+              &nbsp;&nbsp;&nbsp;&nbsp;
               <span className="info">Advanced course curriculum</span>
             </li>
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
+              &nbsp;&nbsp;&nbsp;&nbsp;
               <span className="info">Real-time projects, Interviews</span>
             </li>
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
+              &nbsp;&nbsp;&nbsp;&nbsp;
               <span className="info">Career support with our job acceleration program</span>
             </li>
           </ul>
@@ -84,36 +90,9 @@ const SessionPage = () => {
         {/* Right Side Content */}
         <div className="col-lg-7 col-md-12 backImg">
           <img className="bgImage bgBlueRight" src={backgroundRight} alt="Background" />
-          <span className="centerStudent">
-            <img src={studentCenter} alt="Student Center" />
-          </span>
-          <span className="studentSalary">12LPA&nbsp;<span className="studentCompany">Infosys</span></span>
           
-           <span className="student1">
-            <img src={studentOne} alt="Student 1" />
-          </span>
-           <span className="student2">
-            <img src={studentTwo} alt="Student 2" />
-          </span>
-          <span className="student3">
-            <img src={studentThree} alt="Student 3" />
-          </span>
-          <span className="student4">
-            <img src={studentFour} alt="Student 4" />
-          </span>
-          <span className="student5">
-            <img src={studentFive} alt="Student 5" />
-          </span>
-          <span className="student6">
-            <img src={studentSix} alt="Student 6" />
-          </span>
-          <span className="student7">
-            <img src={studentSeven} alt="Student 7" />
-          </span>
-          <span className="student8">
-            <img src={studentEight} alt="Student 8" />
-          </span>
-          <p className="allPlaced">Placed&nbsp;Students&nbsp;<button className="moreStudents"><a href="">See More...</a></button></p>
+          <p className="allPlaced">Placed&nbsp;Students&nbsp;&gt;&gt;
+          <button className="moreStudents"><a href="">See More...</a></button></p>
 
 
 

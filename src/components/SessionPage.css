@@ -16,13 +16,15 @@
 
 /* Header Styling */
 .header h1 img {
-  font-size: 35px;
+  font-size: 40px;
+  font-family: "monda";
+  font-weight: 600;
   /* font-weight: bold; */
-  width: 441px;
-  height: 42px;
+  width: 560px;
+  height: 38px;
   /* shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5); */
   position: relative;
-  left:4.5rem;
+  left:1.5rem;
   /* inter,light */
 }
 
@@ -33,7 +35,7 @@
   padding: 5px;
   color: #14238a;
   /* lato,extraBold */
-}
+} 
 
 .code-text {
   color: #14238a;
@@ -50,25 +52,23 @@
   padding: 1rem 0;
 }
 
-/* Features List */
-.features-section {
-  padding: 1rem 0;
-}
-
 .features-list {
-  width: 639px;
-  height: 315px;
+  width: 656px;
+  height: 305px;
   list-style-type: none;
   padding-left: 0;
+  position: relative;
+  top:-1rem;
 }
 
 .features-list li {
   margin: 1rem 0;
+  width: 656px;
   text-align: left;
-  font-size: 20px;
+  font-size: 24px;
   /* font-weight:semi bold; */
   /* font-family: montserrat; */
-  font-family: 'Inter';
+  font-family: 'monda';
   /* 'Lato', 'Montserrat', sans-serif;   */
     font-weight: 600;
     /* Light: 200
@@ -79,9 +79,9 @@
 }
 
 .features-list img {
-  margin-right: 0.5rem;
+  margin-right: 0.8rem;
   width: 49px;
-  height: 55px;
+  height: 48px;
 } 
 
 /* Decorations Circle */
@@ -143,8 +143,8 @@
 }
 
 .studentImg{
-  width:155px;
-  height: 232px;
+  width:173px;
+  height: 245px;
   position: relative;
   left:-3.8rem;
   top:0;
@@ -156,13 +156,14 @@
   text-align: center;
   position: relative;
   left: -4rem;
-  top:4rem;
+  top:1rem;
 }
 
 .studentResults div h3 {
+  width:133px;
+  height:39px;
   color: #ee1e3d;
   font-size: 32px;
-  font-weight: bold;
   /* Montserrat */
   font-family: 'Montserrat';
   /* 'Lato', 'Montserrat', sans-serif;   */
@@ -170,12 +171,12 @@
 }
 
 .studentResults div p{
-width: 133px;
-height:39px;
+width: 146px;
+height:29px;
 /* font-weight: bold; */
-font-size: 20px;
+font-size: 18px;
 /* Montserrat */
-font-family: 'Montserrat';
+font-family: 'Monda';
   /* 'Lato', 'Montserrat', sans-serif;   */
     font-weight: 600;
     /* Light: 200
@@ -205,9 +206,7 @@ font-family: 'Montserrat';
 .bgBlueRight{
   position: absolute;
   right:0;
-  width: 100%;
   top:-6rem;
-  height:1020px;
 }
 
 .backImg {
@@ -260,11 +259,14 @@ font-family: 'Montserrat';
   color: white;
   align-items: left;
   text-align: center;
+  font-size: 24px;
+  font-family: "monda";
+  font-weight: 600;  
+  width: 821px;
+  height: 84px;
   position: absolute;
   left:4rem;
-  width: 608px;
-  height: 10px;
-  font-size: 1rem; /* Increased font size for better visibility */
+  font-size: 24px; /* Increased font size for better visibility */
   line-height: 1.4rem;
   /* position: relative; */
 }
@@ -355,11 +357,11 @@ font-family: 'Montserrat';
 .allPlaced{
   color:#FDFA01;
   font-size: 32px;
-  width: 405px;
+  width: 425px;
   height: 39px;
   padding: 5px;
   position: absolute;
-  top: 85%;
+  top: 82%;
   left: 45%;
 }
 .moreStudents{
@@ -368,6 +370,8 @@ font-family: 'Montserrat';
   border-radius: 50px;
   width: 130px;
   height: 50px;
+  position: relative;
+  left:1rem;
   /* margin: 5px; */
 }
 
@@ -463,30 +467,32 @@ font-family: 'Montserrat';
   
 @media (min-width: 1400px) { 
   .header h2 img{
-    width: 830px;
+    width: 930px;
     height: 90px;
     position: relative;
-    left:2rem;
+    left:0.5rem;
     top:1rem;
   }
   .dotImg{
     top:5.3rem;
   } 
  .dotImg img {
-  width: 5rem;
+  width: 3rem;
   height: 7rem; 
 }
 .features-list li {
   font-size: 22px;
 }
 .studentImg {
-  width: 160px;
-  height: 240px;
+  width: 150px;
+  height: 245px;
+  position: relative;
+  top: -2rem;
 }
 .center-container{
- height: 55vh;
+ height: 43vh;
  position: absolute;
- left: 25rem;
+ left: 30rem;
 
 }
 .centerStudent img {
@@ -497,7 +503,8 @@ font-family: 'Montserrat';
   width: 100%;
   height: 10rem;
   position:absolute;
-  top:-10rem;
+  top:-14rem;
+  left:-2rem;
 }
 
 .dash {
@@ -505,11 +512,11 @@ font-family: 'Montserrat';
   padding: 2.2rem;
   position: relative;
   top:-3.4rem;
-  left:1rem
+  left:1.5rem
 }
 .bgImage {
-  width: 1019px;
-  /* height: 1089px; */
+  width: 950px;
+  height: 950px;
   /* border: 2px solid yellow; */
   /* position: relative; */
 }
@@ -521,8 +528,8 @@ font-family: 'Montserrat';
 }
 
 .bottom-container {  
-  left: 45rem;
-  top:9rem;
+  left: 48rem;
+  top:4rem;
 }
 }
 
