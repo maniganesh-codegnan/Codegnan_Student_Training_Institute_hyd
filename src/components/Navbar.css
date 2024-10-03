@@ -1,3 +1,8 @@
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .headerCls {
   width: 100%;
   /* border: 0.1px solid rgba(239, 238, 238, 0.858); */
@@ -27,6 +32,7 @@
 .logo-img {
   height: 97px;
   width: 194px;
+  padding-left: 2rem;
 }
 
 /* Navigation links styling */
@@ -36,6 +42,7 @@
   gap: 1.5rem;
   align-items: center;
   font-weight: medium;
+  padding-right: 2rem;
 }
 
 .nav-links li {
@@ -118,7 +125,7 @@
   }
 
   .logo-img {
-    height: 88px;
+    height: 90px;
     width: 200px;
   }
 }
