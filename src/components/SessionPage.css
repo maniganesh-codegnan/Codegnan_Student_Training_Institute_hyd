@@ -2,9 +2,10 @@
 .sessionCls {
   width: 100%;
   height: 100vh;
-  padding: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+  /* padding: 1rem; */
   /* border:0.1px solid rgba(239, 238, 238, 0.858); */
- 
 }
 
 .session-page {
@@ -108,8 +109,8 @@
   align-items: center;
   height: 85vh;
   position: absolute;
-  left: 20rem;
-  top:17rem;
+  left: 22rem;
+  top:14rem;
 }
 .center-container img {
   width: 160px;
@@ -121,9 +122,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 170vh;
+  height: 150vh;
   position: absolute;
   left: 45rem;
+}
+.btm_circle{
+  position: absolute;
+  top:-15rem;
 }
 
 .bottom-container img {
@@ -233,6 +238,7 @@ font-family: 'Monda';
 /* Footer */
 .footer {
   position: relative;
+  top:-5rem;/*  if Needed */
   width: 100%;
   /* height: 1rem; Adjust the height as needed */
   display: flex;
@@ -257,7 +263,7 @@ font-family: 'Monda';
 
 .footerPara {
   color: white;
-  align-items: left;
+  align-items: center;
   text-align: center;
   font-size: 24px;
   font-family: "monda";
@@ -365,7 +371,7 @@ font-family: 'Monda';
   left: 45%;
 }
 .moreStudents{
-  color:#050F5A;
+  color:#14238A;
   font-size: 20px;
   border-radius: 50px;
   width: 130px;
@@ -374,14 +380,21 @@ font-family: 'Monda';
   left:1rem;
   /* margin: 5px; */
 }
+.seeMore{
+  color:#14238A;
+  font-size:21px;
+  font-weight: 700;
+}
 
 /*======== */
 
 /* Base styles */
 .sessionCls {
   width: 100%;
+  padding-left: 0;
+  padding-right: 0;
   height: auto;
-  padding: 1rem;
+  /* padding: 1rem; */
   /* border: 0.1px solid rgba(239, 238, 238, 0.858); */
 }
 
@@ -490,7 +503,7 @@ font-family: 'Monda';
   top: -2rem;
 }
 .center-container{
- height: 43vh;
+ height: 40vh;
  position: absolute;
  left: 30rem;
 
@@ -529,7 +542,7 @@ font-family: 'Monda';
 
 .bottom-container {  
   left: 48rem;
-  top:4rem;
+  top:-1rem;
 }
 }
 

@@ -17,7 +17,7 @@ import studentSeven from "../photos/studentSeven.png";
 import studentEight from "../photos/studentEight.png";
 import institute from "../photos/India_Training_Institute.png";
 import startCodeGetJob from "../photos/Start_Code_Get_Job.png";
-// import StudentData from "./StudentData";
+import StudentData from "./StudentData";
 
 
 const SessionPage = () => {
@@ -28,8 +28,7 @@ const SessionPage = () => {
           <header className="header">
             <h1 className="firstHead"><img src={institute} alt="" /></h1>            
             <h2 className="startText">
-            <img src={startCodeGetJob} alt="" />
-             
+            <img src={startCodeGetJob} alt="" />             
             </h2>
           </header>
 
@@ -37,27 +36,27 @@ const SessionPage = () => {
           <ul className="features-list">
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
-              &nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;
               <span className="info">Online and classroom IT certification courses</span>
             </li>
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
-              &nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;
               <span className="info">Expert trainers from top universities and companies</span>
             </li>
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
-              &nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;
               <span className="info">Advanced course curriculum</span>
             </li>
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
-              &nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;
               <span className="info">Real-time projects, Interviews</span>
             </li>
             <li className="d-flex align-items-center">
               <img src={tick} alt="tick" />
-              &nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;
               <span className="info">Career support with our job acceleration program</span>
             </li>
           </ul>
@@ -90,9 +89,12 @@ const SessionPage = () => {
         {/* Right Side Content */}
         <div className="col-lg-7 col-md-12 backImg">
           <img className="bgImage bgBlueRight" src={backgroundRight} alt="Background" />
+          <div>
+          <StudentData/>
+          </div>
           
           <p className="allPlaced">Placed&nbsp;Students&nbsp;&gt;&gt;
-          <button className="moreStudents"><a href="">See More...</a></button></p>
+          <button className="moreStudents"><a href="" className="seeMore">See More...</a></button></p>
 
 
 
@@ -107,10 +109,9 @@ const SessionPage = () => {
         <span className="center-container">
           <img src={cicleIsolation} alt="Circle Isolation" />
         </span>
-        <span className="bottom-container">
+        <span className="bottom-container btm_circle">
           <img src={cicleIsolation} alt="Bottom Isolation" />
-        </span>
-        
+        </span>        
       </div>
 
 <div className="row footerDiv">
