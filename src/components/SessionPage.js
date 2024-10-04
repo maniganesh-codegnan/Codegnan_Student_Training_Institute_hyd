@@ -5,19 +5,10 @@ import studentLogo from "../photos/person.png";
 import cicleIsolation from "../photos/CircleIsolation.png";
 import dotSquare from "../photos/dotSquare.png";
 import tick from "../photos/tickmark.png";
-import blueBottom from "../photos/blueBottom.png";
-import studentCenter from "../photos/studentCenter.png";
-import studentOne from "../photos/studentOne.png";
-import studentTwo from "../photos/studentTwo.png";
-import studentThree from "../photos/studentThree.png";
-import studentFour from "../photos/studentFour.png";
-import studentFive from "../photos/studentFive.png";
-import studentSix from "../photos/studentSix.png";
-import studentSeven from "../photos/studentSeven.png";
-import studentEight from "../photos/studentEight.png";
 import institute from "../photos/India_Training_Institute.png";
 import startCodeGetJob from "../photos/Start_Code_Get_Job.png";
 import StudentData from "./StudentData";
+import ratingStar from "../photos/ratingStar.png";
 
 
 const SessionPage = () => {
@@ -65,7 +56,7 @@ const SessionPage = () => {
 
           <section className="statistics">
              <span>
-              <img className="studentImg" src={studentLogo} alt="Student Logo" />
+              <img className="studentImg stu_Img" src={studentLogo} alt="Student Logo" />
             </span>
             <div className="studentResults">
               <div>
@@ -74,9 +65,9 @@ const SessionPage = () => {
               </div>
               <span className="dash">|</span>
               <div>
-                <h3>4.8★★★★★</h3>
+                <h3>4.8<span><img className="rating" src={ratingStar} alt="Rating Star"/></span></h3>
                 <p>2,200Student&nbsp;Ratings</p>
-              </div>
+              </div> &nbsp;&nbsp;&nbsp;
               <span className="dash">|</span>
               <div>
                 <h3>1250+</h3>
@@ -86,7 +77,6 @@ const SessionPage = () => {
           </section>
         </div>
 
-        {/* Right Side Content */}
         <div className="col-lg-7 col-md-12 backImg">
           <img className="bgImage bgBlueRight" src={backgroundRight} alt="Background" />
           <div>
@@ -95,14 +85,8 @@ const SessionPage = () => {
           
           <p className="allPlaced">Placed&nbsp;Students&nbsp;&gt;&gt;
           <button className="moreStudents"><a href="" className="seeMore">See More...</a></button></p>
-
-
-
-            
         </div>
 
-        {/* Decorations and Footer */}
-       
          <span className="dotImg">
           <img src={dotSquare} alt="Dot Square" />
         </span>
@@ -118,26 +102,14 @@ const SessionPage = () => {
   <div className="col-8">
     <footer className="footer">
       <div className="footer-background">
-        <p className="footerPara">
+        <p className="footerPara para">
           Codegnan offers finishing schools for <br /> students who want to start and grow their tech career.
         </p>
       </div>
     </footer>
   </div>
 </div>
-
-      {/* Footer 
-      <div className="row footerDiv">
-        <div className="col-12">
-          <footer className="footer">
-            <img src={blueBottom} alt="Footer Background" />
-            <p className="footerPara">
-              Codegnan offers finishing schools for students who want to start and grow their tech career.
-            </p>
-          </footer>
-        </div>
-      </div>*/}
-    </div>
+</div>
   );
 };
 

@@ -58,14 +58,14 @@ body {
    
    
    /* Adjust positions of the icons in the circle */
-   .circle-container img:nth-child(1) { transform: translate(-220px, -200px) rotate(-15deg); }
-   .circle-container img:nth-child(2) { transform: translate(0px, -310px) rotate(-15deg); }
-   .circle-container img:nth-child(3) { transform: translate(230px, -230px) rotate(-15deg); }
-   .circle-container img:nth-child(4) { transform: translate(310px, 0px) rotate(-15deg); }
-   .circle-container img:nth-child(5) { transform: translate(210px, 190px) rotate(-15deg); }
-   .circle-container img:nth-child(6) { transform: translate(0px, 260px) rotate(-15deg); }
-   .circle-container img:nth-child(7) { transform: translate(-180px, 190px) rotate(-15deg); }
-   .circle-container img:nth-child(8) { transform: translate(-270px, 0px) rotate(-15deg); } 
+   .circle-container img:nth-child(1) { transform: translate(-180px, -195px) rotate(-15deg); }
+   .circle-container img:nth-child(2) { transform: translate(0px, -286px) rotate(-15deg); }
+   .circle-container img:nth-child(3) { transform: translate(206px, -206px) rotate(-15deg); }
+   .circle-container img:nth-child(4) { transform: translate(275px, -30px) rotate(-15deg); }
+   .circle-container img:nth-child(5) { transform: translate(210px, 140px) rotate(-15deg); }
+   .circle-container img:nth-child(6) { transform: translate(30px, 230px) rotate(-15deg); }
+   .circle-container img:nth-child(7) { transform: translate(-170px, 150px) rotate(-15deg); }
+   .circle-container img:nth-child(8) { transform: translate(-242px, -30px) rotate(-15deg); } 
 
       /* Center Student Image */
    .center-image {
@@ -80,28 +80,34 @@ body {
    
    /* Center Student Image info Data display */
    .company-info {
-     /* border: 2px solid white; */
-     /* padding: 5px; */
      height: 15rem;
      width: 15rem;
-     /* margin:0; */
      border-radius: 50%;
      position: absolute;
      right:9.6rem;
-     top: 26.5%;
+     top: 27.5%;
      transform: translate(-50%, -50%);
      text-align: center;
    }
    
    .company-info h1 {
-    padding: 4px;;
-     font-size: 30px;
-     color: yellow;
+    width: 19rem;
+    padding: 4px;
+     font-size: 38px;
+     color: #fdfa01;
+     font-family: inter;
+     font-weight: 600;
+     position: relative;
+     left:-2rem;
+
    }
    
-   .company-info h2 {
-     font-size: 22px;
+   .company-info span {
+     font-size: 24px;
+     width: 83px;
      color: white;
+     font-family: inter;
+     font-weight: 600;
    }
    .company-info h3 {
      color: yellow;
@@ -111,7 +117,7 @@ body {
      
    @media (min-width: 1400px) { 
      .header h2 img{
-       width: 830px;
+       width: 900px;
        height: 90px;
        position: relative;
        left:2rem;

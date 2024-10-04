@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./StudentData.css"; 
 import studentOne from "../photos/1.png";
 import studentTwo from "../photos/2.png";
@@ -9,24 +9,35 @@ import studentSix from "../photos/6.png";
 import studentSeven from "../photos/7.png";
 import studentEight from "../photos/8.png";
 
-// Updated data structure for company images, CTC, and company names
 const companies = [
-  { id: 1, name:"A",companyName: "TCS", salary: "10 LPA", image:studentOne },
-  { id: 2, name:"B",companyName: "Infosys", salary: "11 LPA", image: studentTwo }, 
-  { id: 3, name:"C",companyName: "L&T", salary: "13 LPA", image: studentThree },
-  { id: 4, name:"D",companyName: "HCL", salary: "14 LPA", image: studentFour },
-  { id: 5, name:"E",companyName: "Amazon", salary: "20 LPA", image: studentFive },
-  { id: 6, name:"F",companyName: "wipro", salary: "12 LPA", image: studentSix },
-  { id: 7, name:"G",companyName: "ADP", salary: "15 LPA", image: studentSeven },
-  { id: 8, name:"H",companyName: "Swiggy", salary: "16 LPA", image: studentEight }
+  { id: 1, name: "A", companyName: "TCS", salary: "10 LPA", image: studentOne },
+  { id: 2, name: "B", companyName: "Infosys", salary: "11 LPA", image: studentTwo }, 
+  { id: 3, name: "C", companyName: "L&T", salary: "13 LPA", image: studentThree },
+  { id: 4, name: "D", companyName: "HCL", salary: "14 LPA", image: studentFour },
+  { id: 5, name: "E", companyName: "Amazon", salary: "20 LPA", image: studentFive },
+  { id: 6, name: "F", companyName: "Wipro", salary: "12 LPA", image: studentSix },
+  { id: 7, name: "G", companyName: "ADP", salary: "15 LPA", image: studentSeven },
+  { id: 8, name: "H", companyName: "Swiggy", salary: "16 LPA", image: studentEight }
 ];
 
 function StudentData() {
-  const [selectedCompany, setSelectedCompany] = useState(companies[1]); // Set default to Infosys
-
+  const [selectedCompany, setSelectedCompany] = useState(companies[1]); 
+  const [currentIndex, setCurrentIndex] = useState(1); 
   const handleCompanyClick = (company) => {
     setSelectedCompany(company);
+    setCurrentIndex(companies.indexOf(company)); 
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % companies.length);
+    }, 1000);
+    return () => clearInterval(interval); 
+  }, []);
+
+  useEffect(() => {
+    setSelectedCompany(companies[currentIndex]);
+  }, [currentIndex]);
 
   return (
     <div className="studentContainer blueRight">
@@ -43,11 +54,12 @@ function StudentData() {
       </div>
 
       <div className="company-info">
-
+      {/* <h3>{selectedCompany.name}</h3>*/} 
         <img src={selectedCompany.image} alt={selectedCompany.name} className="center-image" />
-        {/*<h1>{selectedCompany.salary}</h1>
+        <div><h1>{selectedCompany.salary}&nbsp;<span>{selectedCompany.companyName}</span></h1></div>
+        {/* <h1>{selectedCompany.salary} </h1>
         <h2>{selectedCompany.companyName}</h2>
-         <h3>{selectedCompany.name}</h3> */}
+        <h3>{selectedCompany.name}</h3> */}
       </div>
     </div>
   );
