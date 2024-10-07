@@ -1,13 +1,12 @@
 .card{
      height: 1250px;
-     border:2px solid red;
+     border: white;
 }
 .ratings-container{
      display: flex;
      justify-content: space-evenly;
      align-items: center;
      text-align: center;
-     /* padding: 20px; */
      margin: 3rem 12rem 0;
    }
    
@@ -29,16 +28,16 @@
    }
    
    .trustpilot-stars span {
-     color: #00b67a; /* Trustpilot star color */
+     color: #00b67a; 
    }
    
    .google-stars span {
-     color: #4285F4; /* Google star color */
+     color: #4285F4; 
    }
    
    
    .justdial-stars span {
-     color: #ff6600; /* Justdial star color */
+     color: #ff6600; 
    }
    
    /* .logo {
@@ -91,8 +90,6 @@
      /* gap: 20px; */
    }
    .certificate-image {    
-    /* border: 2px solid #ddd; */
-    /* border-radius: 10px; */
     width: 846px; /* Ensures certificate width matches */
     height: 595px;  /* Maintain aspect ratio */
     z-index: 2;  /* Puts certificate on top */
