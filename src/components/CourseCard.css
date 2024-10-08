@@ -1,0 +1,131 @@
+/* Wrapper for the entire card section */
+.courseCard-wrapper {
+     text-align: center;
+     padding: 20px;
+     background-image: url("../photos/courseCards/bg_courseCard.png");
+     height: 908px;
+     width: 1919px;
+     position: relative;
+     background-size: cover;
+   }
+   
+   /* Main title styling */
+   .courseCard-wrapper h2 {
+     margin: 3rem 0;
+     color: white;
+     font-size: 50px;
+     font-family: 'monda';
+     font-weight: 600;
+   }
+   
+   /* Flex grid for cards */
+   .certification-grid {
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     gap: 20px;
+     margin:10rem 6rem;
+   }
+   
+   /* Individual course card styling */
+   .certification-card {
+    height: 527px;
+     width: 377px;
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     /* padding: 20px; */
+     text-align: left;
+     transition: transform 0.3s;
+   }
+   
+   .certification-card:hover {
+     transform: translateY(-10px);
+   }
+   
+   /* Image inside the card */
+   .certification-image {
+     width: 377px;
+     height: 305px;
+     border-radius: 4px;
+   }
+   
+   .certification-info h3 {
+     margin: 10px;
+     font-size: 24px;
+     font-weight: 600;
+     font-family: montserrat;
+   }
+   
+   .certification-info p {
+     margin: 10px;
+     font-size: 14px;
+     line-height: 1.5;
+     font-family:monda;
+     font-weight:200 ;
+   }
+   
+   /* Duration and CTA button section */
+   .duration-cta {
+     display: flex;
+     /* justify-content: space-between; */
+     align-items: center;
+     margin: 2rem 1rem;
+     position: relative;
+     bottom: -1rem;
+   }
+   
+   .duration {
+     font-size: 14px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+   }
+   
+   .join-button {
+     width: 110px;
+     height: 35px;
+     background-color: #FFB60A;
+     border: none;
+     color: black;
+     cursor: pointer;
+     border-radius: 5px;
+     font-size: 14px;
+     font-family: 'Monda', sans-serif;
+   }
+   
+   .join-button:hover {
+     background-color: #ffa500;
+   }
+   
+   /* Left isolation image positioning */
+   .left-isolation-container {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+   }
+   
+   .left-isolation {
+     height: 615px;
+     width: 190px;
+     position: relative;
+     top: -20rem;
+   }
+   
+   /* Responsive adjustments */
+   @media (max-width: 768px) {
+     .certification-grid {
+       flex-direction: column;
+       gap: 40px;
+     }
+   
+     .certification-card {
+       width: 90%;
+       margin: 0 auto;
+     }
+   
+     .left-isolation {
+       display: none;
+     }
+   }
+   
