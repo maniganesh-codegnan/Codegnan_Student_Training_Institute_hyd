@@ -49,53 +49,76 @@
      height: 305px;
      border-radius: 4px;
    }
+   .certification-info .star-rating{
+    padding-left: 1rem;
+    font-size: 2rem;
+    color: #ffb60A; 
+
+   }
    
    .certification-info h3 {
-     margin: 10px;
+     /* margin: 10px; */
+     padding-left: 1rem;
      font-size: 24px;
      font-weight: 600;
      font-family: montserrat;
    }
    
    .certification-info p {
-     margin: 10px;
+     /* margin: 10px; */
+     padding-left: 1rem;
      font-size: 14px;
      line-height: 1.5;
      font-family:monda;
      font-weight:200 ;
    }
    
-   /* Duration and CTA button section */
    .duration-cta {
-     display: flex;
-     /* justify-content: space-between; */
-     align-items: center;
-     margin: 2rem 1rem;
-     position: relative;
-     bottom: -1rem;
-   }
-   
-   .duration {
-     font-size: 14px;
-     font-family: 'Montserrat', sans-serif;
-     font-weight: 600;
-   }
-   
-   .join-button {
-     width: 110px;
-     height: 35px;
-     background-color: #FFB60A;
-     border: none;
-     color: black;
-     cursor: pointer;
-     border-radius: 5px;
-     font-size: 14px;
-     font-family: 'Monda', sans-serif;
-   }
-   
-   .join-button:hover {
-     background-color: #ffa500;
-   }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    width: 300px; /* Adjust width if needed */
+  }
+  
+  .duration-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .calendar-icon {
+    width: 20px; /* Adjust size based on the image */
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  .duration {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #f91236; 
+    position: relative;
+    left:-1rem;
+    top:0.4rem;
+  }
+  
+  .join-button {
+    width: 110px;
+    height: 35px;
+    background-color: #FFB60A;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Monda', sans-serif;
+    font-weight: 700;
+  }
+  .join-button a{  
+    text-decoration: none;
+  }
+ 
+  
    
    /* Left isolation image positioning */
    .left-isolation-container {

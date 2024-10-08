@@ -12,14 +12,20 @@ const CertificationCard = ({ imgSrc, title, description, duration }) => {
     <div className="certification-card">
       <img src={imgSrc} alt={`${title} Certification`} className="certification-image" />
       <div className="certification-info">
-      <span></span>
+      <div class="star-rating">
+      <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+    </div>
         <h3>{title}</h3>
         <p>{description}</p>
         <div className="duration-cta">
-          <img src={calendar} alt="calendar icon" />
-          <p className="duration">Duration: {duration}</p>
-          <button className="join-button">JOIN NOW</button>
-        </div>
+      <div className="duration-info">
+        <img src={calendar} alt="calendar icon" className="calendar-icon" />
+        <p className="duration">Duration: {duration}</p>
+      </div>
+      <button className="join-button">
+      <a href="https://codegnan.com/" target="#">JOIN NOW</a>
+      </button>
+    </div>
       </div>
     </div>
   );
@@ -42,7 +48,7 @@ const CourseCard = () => {
     {
       imgSrc: javaImage,
       title: 'Full-stack Java',
-      description: 'Launch your career as a full-stack developer by gaining in-demand Java skills spanning front and backend.',
+      description: 'Launch your career as a full-stack developer by gaining Java skills spanning front and backend.',
       duration: '100 Days'
     },
     {
