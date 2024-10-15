@@ -84,11 +84,11 @@ const SessionPage = () => {
           </div>
           
           <p className="allPlaced">Placed&nbsp;Students&nbsp;&gt;&gt;
-          <button className="moreStudents"><a href="" className="seeMore">See More...</a></button></p>
+          <button className="moreStudents"><a href="" target="_self" className="seeMore">See More...</a></button></p>
         </div>
 
          <span className="dotImg">
-          <img src={dotSquare} alt="Dot Square" />
+          <img src={dotSquare} alt="Dot Square" /> 
         </span>
         <span className="center-container">
           <img src={cicleIsolation} alt="Circle Isolation" />

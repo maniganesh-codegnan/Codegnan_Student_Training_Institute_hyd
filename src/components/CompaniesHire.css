@@ -4,6 +4,7 @@
      height:490px;
      width:1920px;
      background-color: #f9f8fc;
+     overflow: hidden;
      
    }
    .companies-container h2{
@@ -15,15 +16,23 @@
      align-items: center;
    }
    
+   /* Marquee wrapper for grid */
+.marquee-grid {
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+
    .companies-grid {
      display: grid;
-     grid-template-columns: repeat(6, 1fr); /* 6 columns */
+     grid-template-columns: repeat(18, 1fr); /* 6 columns */
      grid-template-rows: repeat(2, auto); /* 2 rows */
      gap: 1rem; /* Adds space between the company logos */
      justify-items: center; /* Centers the logos horizontally */
      align-items: center; /* Centers the logos vertically */
      padding: 2rem; /* Adds padding around the grid */
      margin: 1.5rem 5rem;
+     animation: scrollGrid 20s linear infinite; 
    }
    
    .company-card {
@@ -49,3 +58,11 @@
      max-height: 100%;
    }
    
+   @keyframes scrollGrid{
+    0% {
+      transform: translateX(100%); /* Start from the right */
+    }
+    100% {
+      transform: translateX(-100%); /* End at the left */
+    }
+  }

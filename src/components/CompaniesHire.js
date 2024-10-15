@@ -27,17 +27,43 @@ const CompaniesHire = () => {
     { name: 'NielsenIQ', logo: nielsenIQ, alt: 'NielsenIQ Logo' },
     { name: 'PwC', logo: pwc, alt: 'PwC Logo' },
     { name: 'Gensuite', logo: gensuite, alt: 'Gensuite Logo' },
+    { name: 'TCS', logo: tcs, alt: 'TCS Logo' },
+    { name: 'Google', logo: google, alt: 'Google Logo' },
+    { name: 'Amazon', logo: amazon, alt: 'Amazon Logo' },
+    { name: 'Microsoft', logo: microsoft, alt: 'Microsoft Logo' },
+    { name: 'Tech Mahindra', logo: techMahindra, alt: 'Tech Mahindra Logo' },
+    { name: 'Mphasis', logo: mPhasis, alt: 'Mphasis Logo' },
+    { name: 'Capgemini', logo: capgemini, alt: 'Capgemini Logo' },
+    { name: 'Stanford University', logo: stanford, alt: 'Stanford Logo' },
+    { name: 'IIT Bombay', logo: iitBombay, alt: 'IIT Bombay Logo' },
+    { name: 'NielsenIQ', logo: nielsenIQ, alt: 'NielsenIQ Logo' },
+    { name: 'PwC', logo: pwc, alt: 'PwC Logo' },
+    { name: 'Gensuite', logo: gensuite, alt: 'Gensuite Logo' },  
+    { name: 'TCS', logo: tcs, alt: 'TCS Logo' },
+    { name: 'Google', logo: google, alt: 'Google Logo' },
+    { name: 'Amazon', logo: amazon, alt: 'Amazon Logo' },
+    { name: 'Microsoft', logo: microsoft, alt: 'Microsoft Logo' },
+    { name: 'Tech Mahindra', logo: techMahindra, alt: 'Tech Mahindra Logo' },
+    { name: 'Mphasis', logo: mPhasis, alt: 'Mphasis Logo' },
+    { name: 'Capgemini', logo: capgemini, alt: 'Capgemini Logo' },
+    { name: 'Stanford University', logo: stanford, alt: 'Stanford Logo' },
+    { name: 'IIT Bombay', logo: iitBombay, alt: 'IIT Bombay Logo' },
+    { name: 'NielsenIQ', logo: nielsenIQ, alt: 'NielsenIQ Logo' },
+    { name: 'PwC', logo: pwc, alt: 'PwC Logo' },
+    { name: 'Gensuite', logo: gensuite, alt: 'Gensuite Logo' },  
   ];
 
   return (
     <div className="companies-container">
-      <h2>1250+ Companies Have Hired Codegnan Learners</h2>
+      <h2>1250+ Companies Have Hired Codegnan Learners</h2>     
+      <div className="marquee-grid">
       <div className="companies-grid">
         {companies.map((company, index) => (
           <div className="company-card" key={index}>
             <img src={company.logo} alt={company.alt} />
           </div>
         ))}
+      </div>
       </div>
     </div>
   );
