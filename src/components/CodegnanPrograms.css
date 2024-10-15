@@ -1,0 +1,44 @@
+.enroll-container{
+  width: auto;
+  height: 1250px;
+}
+
+.studentImg {
+  width: 1046px;
+  height: 1215px;
+  background-size:cover;
+}
+/* @media (min-width: 1400px) {
+  .studentImg {
+      width: 1046px;
+      height: 1215px;
+  }
+} */
+
+.whyCertificate{
+  height:290px;
+  width:635px;
+  background-size: cover;
+  position: absolute;
+  left: 8em;
+}
+
+.programs-certification h1{  
+  text-align: left;
+  font-size: 128px;
+  font-family: monda;
+  font-weight: 600;
+}
+
+.programs-certification h3{
+  text-align: left;
+  font-size: 50px;
+  font-family: monda;
+  font-weight: 600;
+}
+
+.list-group li{
+font-size:24px;
+font-family:monda;
+font-weight:600;
+}

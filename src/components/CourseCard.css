@@ -1,0 +1,156 @@
+/* Wrapper for the entire card section */
+.courseCard-wrapper {
+     text-align: center;
+     padding: 20px;
+     background-image: url("../photos/courseCards/bg_courseCard.png");
+     height: 908px;
+     width: 1919px;
+     position: relative;
+     background-size: cover;
+   }
+   
+   /* Main title styling */
+   .courseCard-wrapper h2 {
+     margin: 3rem 0;
+     color: white;
+     font-size: 50px;
+     font-family: 'monda';
+     font-weight: 600;
+   }
+   
+   /* Flex grid for cards */
+   .certification-grid {
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     gap: 20px;
+     margin:10rem 6rem;
+   }
+   
+   /* Individual course card styling */
+   .certification-card {
+    height: 527px;
+     width: 377px;
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     /* padding: 20px; */
+     text-align: left;
+     transition: transform 0.3s;
+   }
+   
+   .certification-card:hover {
+     transform: translateY(-10px);
+   }
+   
+   /* Image inside the card */
+   .certification-image {
+     width: 377px;
+     height: 305px;
+     border-radius: 4px;
+   }
+   .certification-info .star-rating{
+    padding-left: 1rem;
+    font-size: 2rem;
+    color: #ffb60A; 
+
+   }
+   
+   .certification-info h3 {
+     /* margin: 10px; */
+     padding-left: 1rem;
+     font-size: 24px;
+     font-weight: 600;
+     font-family: montserrat;
+   }
+   
+   .certification-info p {
+     /* margin: 10px; */
+     padding-left: 1rem;
+     font-size: 14px;
+     line-height: 1.5;
+     font-family:monda;
+     font-weight:200 ;
+   }
+   
+   .duration-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 1.8rem;
+    width: 300px; /* Adjust width if needed */
+  }
+  
+  .duration-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .calendar-icon {
+    width: 20px; /* Adjust size based on the image */
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  .duration {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #f91236; 
+    position: relative;
+    left:-1rem;
+    top:0.4rem;
+  }
+  
+  .duration-cta .join-button {
+    width: 110px;
+    height: 35px;
+    background-color: #FFB60A;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Monda', sans-serif;
+    font-weight: 700;
+    margin-left: 1rem;
+  }
+  .join-button a{  
+    text-decoration: none;
+    color:black;
+  }
+ 
+  
+   
+   /* Left isolation image positioning */
+   .left-isolation-container {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+   }
+   
+   .left-isolation {
+     height: 615px;
+     width: 190px;
+     position: relative;
+     top: -20rem;
+   }
+   
+   /* Responsive adjustments */
+   @media (max-width: 768px) {
+     .certification-grid {
+       flex-direction: column;
+       gap: 40px;
+     }
+   
+     .certification-card {
+       width: 90%;
+       margin: 0 auto;
+     }
+   
+     .left-isolation {
+       display: none;
+     }
+   }
+   
