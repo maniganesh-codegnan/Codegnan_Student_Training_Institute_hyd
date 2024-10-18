@@ -1,0 +1,84 @@
+/* Container styling */
+.trainingsSession {
+  background-image: url("../photos/trainings/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1880px;
+  height: 852px;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 32px;
+  font-family: Monda;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  top:-3rem;
+  /* margin-bottom: 20px; */
+  background-color: #fff;
+  width: 45rem;
+}
+.one{
+  display: flex;
+  /* margin: 2rem; */
+}
+
+/* .one img{
+  width: ;
+  height: ;
+} */
+
+
+.container-fluid{
+  /* display: flex; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Background sections */
+.trainingBlack {
+  background-image: url("../photos/trainings/black_border.png");
+  background-size: cover;
+  width: 1650px;
+  height: 390px;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.trainingRed {
+  background-image: url("../photos/trainings/red_border.png");
+  background-size: cover;
+  width: 1650px;
+  height: 420px;
+  padding: 40px;
+}
+
+.codegnan-training {
+  color: blue;
+}
+
+.codegnan-training span {
+  color: red;
+}
+
+/* Image styles */
+.image-style {
+  width: 200px;
+  height: 210px;
+  /* margin-top: 10px; */
+}
+
+.btn-red {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-family: Monda, sans-serif;
+  font-size: 18px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}

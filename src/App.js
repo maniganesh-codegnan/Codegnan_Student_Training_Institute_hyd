@@ -6,6 +6,7 @@ import Certification from "./components/Certification";
 import CourseCard from "./components/CourseCard";
 import Companies from "./components/CompaniesHire";
 import CodegnanPrograms from "./components/CodegnanPrograms";
+import TrainingInstitution from "./components/TrainingInstitution";
 export default function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ export default function App() {
         <CourseCard/>
         <Companies/>
         <CodegnanPrograms/>
+        <TrainingInstitution/>
       </div>
     </div>
   );
