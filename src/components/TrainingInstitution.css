@@ -19,7 +19,8 @@
   top:-3rem;
   /* margin-bottom: 20px; */
   background-color: #fff;
-  width: 45rem;
+  width: 43rem;
+  padding-left: 1rem;
 }
 .one{
   display: flex;
@@ -55,6 +56,7 @@
   width: 1650px;
   height: 420px;
   padding: 40px;
+  margin-top: 4rem;
 }
 
 .codegnan-training {
@@ -81,4 +83,28 @@
   font-size: 18px;
   border-radius: 50px;
   margin-bottom: 15px;
+}
+
+.diamond-images{
+  position: relative;
+}
+
+.blackDiamond{
+  position: absolute;
+  top:-27rem;
+  left:36.5rem;
+}
+
+.redDiamond{
+  position: absolute;
+  top:1.5rem;
+  left:36.2rem;
+}
+
+.circleIsolation{
+  width:180px;
+  height: 180px;
+  position: absolute;
+  left:52.5rem;
+  top:-10rem;
 }

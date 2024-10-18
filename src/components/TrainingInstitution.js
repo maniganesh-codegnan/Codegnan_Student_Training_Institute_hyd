@@ -8,6 +8,9 @@ import cg5_logo from "../photos/trainings/cg5_logo.png";
 import cg6_logo from "../photos/trainings/cg6_logo.png";
 import cg7_logo from "../photos/trainings/cg7_logo.png";
 import cg8_logo from "../photos/trainings/cg8_logo.png";
+import blackDaimond from "../photos/trainings/Black_diamond.png";
+import redDaimond from "../photos/trainings/Red_diamond.png";
+import circle_isolate from "../photos/trainings/Isolation_Mode.png";
 
 const TrainingInstitution = () => {
   return (
@@ -34,6 +37,11 @@ const TrainingInstitution = () => {
             <img src={cg4_logo} alt="No Job" className="img-fluid image-style" />
           </div>
         </div>
+      </div>
+      <div className="diamond-images">
+      <img src={blackDaimond} alt="" className="blackDiamond" />
+      <img src={circle_isolate} alt="" className="circleIsolation" />
+      <img src={redDaimond} alt="" className="redDiamond" />
       </div>
 
       {/* Codegnan Training Institution Section */}
