@@ -1,104 +1,84 @@
-/* TrainingInstitution.css */
-
 /* Container styling */
-.container-fluid {
-  width: 100%;
-  padding: 20px;
-  height: 100%;
-  text-align: center;
-}
 .trainingsSession {
   background-image: url("../photos/trainings/bg.png");
-  width: 1880px;
-  height: 852px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 1880px;
+  height: 852px;
 }
+
+/* Section Titles */
+.section-title {
+  font-size: 32px;
+  font-family: Monda;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  top:-3rem;
+  /* margin-bottom: 20px; */
+  background-color: #fff;
+  width: 45rem;
+}
+.one{
+  display: flex;
+  /* margin: 2rem; */
+}
+
+/* .one img{
+  width: ;
+  height: ;
+} */
+
+
+.container-fluid{
+  /* display: flex; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Background sections */
 .trainingBlack {
   background-image: url("../photos/trainings/black_border.png");
   background-size: cover;
-  /* background-position: center; */
-  background-repeat: no-repeat;
   width: 1650px;
   height: 390px;
-  position: relative;
-  top: -2rem;
-  left: 5rem;
+  padding: 40px;
+  margin-bottom: 30px;
 }
+
 .trainingRed {
   background-image: url("../photos/trainings/red_border.png");
   background-size: cover;
-  /* background-repeat: no-repeat; */
   width: 1650px;
-  height: 419px;
-  position: relative;
-  left: 5rem;
-  /* top: -1rem; */
+  height: 420px;
+  padding: 40px;
 }
-.flex-item {
-  position: relative;
-  top: 1rem;
-}
-.flex-item img {
-  height: 210px;
-  width: 200px;
-  position: relative;
-  top: 1rem;
-}
-/* .imgDiv{
-     background-size: cover;
-     width: 1290px;
-     height: 902px;
-} */
 
-.trainingRed .codegnan_training {
+.codegnan-training {
   color: blue;
-  width: 40rem;
-  background-color: white;
-  /* padding: 1rem 4rem; */
-  text-align: center;
-  font-size: 32px;
-  font-family: monda;
-  font-weight: 600;
-  position: relative;
-  left: 30%;
-  top: -1rem;
 }
-.trainingRed .codegnan_training span {
+
+.codegnan-training span {
   color: red;
 }
 
-.trainingBlack .other_training {
-  /* width: 40rem; */
-  background-color: white;
-  padding: 1rem 7rem;
-  font-size: 30px;
-  font-family: monda;
-  font-weight: 600;
-  position: relative;
-  top: -1rem;
+/* Image styles */
+.image-style {
+  width: 200px;
+  height: 210px;
+  /* margin-top: 10px; */
 }
 
-.flex-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 20px 0;
-}
-
-.flex-item {
-  flex-basis: 20%;
-  text-align: center;
-}
-
-.flex-item button {
-  border: 2px solid red;
-  padding: 0.5rem;
+.btn-red {
   background-color: red;
-  border-radius: 50px;
+  border: none;
   color: white;
-  font-size: 20px;
-  font-family: monda;
-  font-weight: 600;
+  padding: 10px 20px;
+  font-family: Monda, sans-serif;
+  font-size: 18px;
+  border-radius: 50px;
+  margin-bottom: 15px;
 }
