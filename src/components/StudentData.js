@@ -1,14 +1,21 @@
 import React, { useState, useEffect } from "react";
 import "./StudentData.css";
-import studentOne from "../photos/1.png";
-import studentTwo from "../photos/2.png";
-import studentThree from "../photos/3.png";
-import studentFour from "../photos/4.png";
-import studentFive from "../photos/5.png";
-import studentSix from "../photos/6.png";
-import studentSeven from "../photos/7.png";
-import studentEight from "../photos/8.png";
-
+// import studentOne from "../photos/1.png";
+// import studentTwo from "../photos/2.png";
+// import studentThree from "../photos/3.png";
+// import studentFour from "../photos/4.png";
+// import studentFive from "../photos/5.png";
+// import studentSix from "../photos/6.png";
+// import studentSeven from "../photos/7.png";
+// import studentEight from "../photos/8.png";
+import studentOne from "../photos/Codegnan_img.png";
+import studentTwo from "../photos/Codegnan_img.png";
+import studentThree from "../photos/Codegnan_img.png";
+import studentFour from "../photos/Codegnan_img.png";
+import studentFive from "../photos/Codegnan_img.png";
+import studentSix from "../photos/Codegnan_img.png";
+import studentSeven from "../photos/Codegnan_img.png";
+import studentEight from "../photos/Codegnan_img.png";
 const companies = [
   { id: 1, name: "A", companyName: "TCS", salary: "10 LPA", image: studentOne },
   {
