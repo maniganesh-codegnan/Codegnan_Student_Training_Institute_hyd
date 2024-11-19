@@ -115,6 +115,30 @@ body {
 .circle-container .company-wrapper:nth-child(8) {
   transform: translate(-242px, -30px) rotate(-25deg);
 }
+.circle-container .company-wrapper:nth-child(9) {
+  transform: translate(-330px, -150px) rotate(-25deg);
+}
+.circle-container .company-wrapper:nth-child(10) {
+  transform: translate(-140px, -326px) rotate(-25deg);
+}
+.circle-container .company-wrapper:nth-child(11) {
+  transform: translate(150px, -360px) rotate(-25deg);
+}
+.circle-container .company-wrapper:nth-child(12) {
+  transform: translate(355px, -150px) rotate(-25deg);
+}
+.circle-container .company-wrapper:nth-child(13) {
+  transform: translate(350px, 140px) rotate(-25deg);
+}
+.circle-container .company-wrapper:nth-child(14) {
+  transform: translate(30px, 230px) rotate(-25deg);
+}
+.circle-container .company-wrapper:nth-child(15) {
+  transform: translate(-170px, 150px) rotate(-25deg);
+} 
+.circle-container .company-wrapper:nth-child(16) {
+  transform: translate(-242px, -30px) rotate(-25deg);
+}
 
 /* Center Student Image */
 .center-image {

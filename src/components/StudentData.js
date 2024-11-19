@@ -1,16 +1,28 @@
 import React, { useState, useEffect } from "react";
 import "./StudentData.css";
-import studentOne from "../photos/1.png";
-import studentTwo from "../photos/2.png";
-import studentThree from "../photos/3.png";
-import studentFour from "../photos/4.png";
-import studentFive from "../photos/5.png";
-import studentSix from "../photos/6.png";
-import studentSeven from "../photos/7.png";
-import studentEight from "../photos/8.png";
+// import studentOne from "../photos/1.png";
+// import studentTwo from "../photos/2.png";
+// import studentThree from "../photos/3.png";
+// import studentFour from "../photos/4.png";
+// import studentFive from "../photos/5.png";
+// import studentSix from "../photos/6.png";
+// import studentSeven from "../photos/7.png";
+// import studentEight from "../photos/8.png";         
+import studentOne from "../photos/students/2.jpg";
+import studentTwo from "../photos/students/3.jpg";
+import studentThree from "../photos/students/4.jpg";
+import studentFour from "../photos/students/5.jpg";
+import studentFive from "../photos/students/6.jpg";
+import studentSix from "../photos/students/7.jpg";
+import studentSeven from "../photos/students/8.jpg";
+import studentEight from "../photos/students/9.jpg";
 
 const companies = [
-  { id: 1, name: "A", companyName: "TCS", salary: "10 LPA", image: studentOne },
+  { id: 1, 
+    name: "A", 
+    companyName: "TCS", 
+    salary: "10 LPA", 
+    image: studentOne },
   {
     id: 2,
     name: "B",
@@ -60,6 +72,56 @@ const companies = [
     salary: "16 LPA",
     image: studentEight,
   },
+  { id: 9, name: "A", companyName: "TCS", salary: "10 LPA", image: studentOne },
+  {
+    id: 10,
+    name: "B",
+    companyName: "Infosys",
+    salary: "11 LPA",
+    image: studentTwo,
+  },
+  {
+    id: 11,
+    name: "C",
+    companyName: "L&T",
+    salary: "13 LPA",
+    image: studentThree,
+  },
+  {
+    id: 12,
+    name: "D",
+    companyName: "HCL",
+    salary: "14 LPA",
+    image: studentFour,
+  },
+  {
+    id: 13,
+    name: "E",
+    companyName: "Amazon",
+    salary: "20 LPA",
+    image: studentFive,
+  },
+  {
+    id: 14,
+    name: "F",
+    companyName: "Wipro",
+    salary: "12 LPA",
+    image: studentSix,
+  },
+  {
+    id: 15,
+    name: "G",
+    companyName: "ADP",
+    salary: "15 LPA",
+    image: studentSeven,
+  },
+  {
+    id: 16,
+    name: "H",
+    companyName: "Swiggy",
+    salary: "16 LPA",
+    image: studentEight,
+  }
 ];
 
 function StudentData() {
