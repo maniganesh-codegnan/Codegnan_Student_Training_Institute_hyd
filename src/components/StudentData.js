@@ -8,14 +8,24 @@ import "./StudentData.css";
 // import studentSix from "../photos/6.png";
 // import studentSeven from "../photos/7.png";
 // import studentEight from "../photos/8.png";
-import studentOne from "../photos/Codegnan_img.png";
-import studentTwo from "../photos/Codegnan_img.png";
-import studentThree from "../photos/Codegnan_img.png";
-import studentFour from "../photos/Codegnan_img.png";
-import studentFive from "../photos/Codegnan_img.png";
-import studentSix from "../photos/Codegnan_img.png";
-import studentSeven from "../photos/Codegnan_img.png";
-import studentEight from "../photos/Codegnan_img.png";
+
+// import studentOne from "../photos/Codegnan_img.png";
+// import studentTwo from "../photos/Codegnan_img.png";
+// import studentThree from "../photos/Codegnan_img.png";
+// import studentFour from "../photos/Codegnan_img.png";
+// import studentFive from "../photos/Codegnan_img.png";
+// import studentSix from "../photos/Codegnan_img.png";
+// import studentSeven from "../photos/Codegnan_img.png";
+// import studentEight from "../photos/Codegnan_img.png";
+
+import studentOne from "../photos/students/2.jpg";
+import studentTwo from "../photos/students/3.jpg";
+import studentThree from "../photos/students/4.jpg";
+import studentFour from "../photos/students/5.jpg";
+import studentFive from "../photos/students/6.jpg";
+import studentSix from "../photos/students/7.jpg";
+import studentSeven from "../photos/students/8.jpg";
+import studentEight from "../photos/students/9.jpg";
 const companies = [
   { id: 1, name: "A", companyName: "TCS", salary: "10 LPA", image: studentOne },
   {
